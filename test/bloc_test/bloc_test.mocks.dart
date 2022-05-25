@@ -23,11 +23,11 @@ import 'bloc_test.dart' as _i3;
 
 class _FakeMeal_0 extends _i1.Fake implements _i2.Meal {}
 
-/// A class which mocks [MockRepository].
+/// A class which mocks [MealRepository].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockMockRepository extends _i1.Mock implements _i3.MockRepository {
-  MockMockRepository() {
+class MockMealRepository extends _i1.Mock implements _i3.MealRepository {
+  MockMealRepository() {
     _i1.throwOnMissingStub(this);
   }
 
